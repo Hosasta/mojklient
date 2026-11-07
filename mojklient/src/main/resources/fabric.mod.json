@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "mojklient",
+  "version": "${version}",
+  "name": "MojKlient",
+  "description": "Klient z modulami (singleplayer / wlasny serwer).",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.mojklient.MojKlient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
